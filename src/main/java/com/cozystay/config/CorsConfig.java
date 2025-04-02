@@ -15,7 +15,7 @@ public class CorsConfig {
         CorsConfiguration config = new CorsConfiguration();
 
         // Allow all origins or specify your Vercel domain
-        config.addAllowedOrigin("https://cozy-stay-oiq6vgbrk-gershomlapaixs-projects.vercel.app");
+        config.addAllowedOrigin("https://cozy-stay-alpha.vercel.app");
         // For development, you might want to add localhost too
         config.addAllowedOrigin("http://localhost:3000");
 
